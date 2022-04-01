@@ -1,25 +1,72 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import Restraunt  from './component/basics/Restraunt'
 
-export default App;
+const App = () => {
+  return <Restraunt/>
+};
+
+export default App
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 1. Basics of React
+// import React from 'react'
+
+// const App = () => {
+//   return (
+//     <>
+//         <MyName />
+//         <MyName />
+//         <MyName />
+//         <h1>Welcome to REACTJS</h1> 
+
+//         <h1 className="myclassname">Hello World {55 +15}</h1>
+        
+//     </>
+//   )
+// }
+
+// const MyName = ()=>{
+//   return <h1>Kshitij Gaikwad</h1>;
+// };
+
+// export default App
+
+
+
+
+
+
+
+
+// 2. old react js example below
+
+// import React from 'react'
+// const App = ()=>{
+//   return React.createElement("h1",{},"Hello World");
+// }
+// export default App;
